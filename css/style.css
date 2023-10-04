@@ -1,0 +1,120 @@
+body {
+    /* Set line spacing */
+    line-height: 150%;
+}
+
+header,
+nav {
+    padding: 0 10px 10px 10px;
+    margin: 10px;
+}
+
+nav ul li {
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline-block;
+    margin: 10px;
+    padding: 0 0 10px 0;
+    font-size: smaller;
+    background-color: beige;
+}
+
+nav a {
+    /* Set text decoration*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    /* Set color */
+    color: black;
+}
+
+nav a.current {
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: wavy underline;
+}
+
+h1 {
+    /*Set font and font size*/
+    font-family: 'Merriweather', 'Anton', 'Times New Roman';
+    font-size: larger;
+}
+
+h2 {
+    /*Set font, font size, and alignment*/
+    font-family: 'Anton', 'Times New Roman';
+    font-size: large;
+    text-align: center;
+}
+
+h3 {
+    /*Set font size*/
+    font-size: medium;
+}
+
+h1,
+h2,
+h3 {
+    /*Set margin */
+    margin: 10px 0 0 0;
+}
+
+.grid {
+    /*Set width, margin, border properties, background color, and grid properties */
+    width: 90%;
+    margin: 0 auto;
+    background-color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+
+.grid div {
+    /* Set border properties, padding, and background color */
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.grid img {
+    /* Set width, margin, and display */
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.grid div:nth-child(3n+1) {
+    /* Set box shadow */
+    box-shadow: 5px 5px 5px black;
+}
+
+.grid div:nth-child(3n) {
+    /* Set box shadow */
+    box-shadow: -5px 5px 5px black;
+}
+
+.grid div:nth-child(3n+2) {
+    /* Set box shadow */
+    box-shadow: 0px 20px 20px black;
+}
+
+p+p {
+    /* Set indentation */
+    text-indent: 2em;
+}
+
+p {
+    /* Set margin */
+    margin: 0 0 10px 0;
+}
+
+.grid ul li {
+    /* Set margin, line-spacing, list styling  */
+    margin: 0 0 10px 50px;
+    line-height: 100%;
+    list-style-image: url('../images/sketchbook.png');
+}
