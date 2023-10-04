@@ -99,7 +99,7 @@ h3 {
 
 .grid div:nth-child(3n+2) {
     /* Set box shadow */
-    box-shadow: 0px 20px 20px black;
+    box-shadow: 0px 20px 5px black;
 }
 
 p+p {
